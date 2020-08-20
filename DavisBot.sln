@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisBot", "src\DavisBot\DavisBot.csproj", "{CFCC65A7-1DE8-4EFB-AF9E-965C5E1CE33B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "env", "env", "{865EBCA0-199E-4CE6-8916-774D9C5BB243}"
+ProjectSection(SolutionItems) = preProject
+	env\Dockerfile = env\Dockerfile
+	docker-compose.yml = docker-compose.yml
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9CAD1A50-BC1F-426F-BC24-0CD5E4A7F28E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCC65A7-1DE8-4EFB-AF9E-965C5E1CE33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCC65A7-1DE8-4EFB-AF9E-965C5E1CE33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCC65A7-1DE8-4EFB-AF9E-965C5E1CE33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCC65A7-1DE8-4EFB-AF9E-965C5E1CE33B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFCC65A7-1DE8-4EFB-AF9E-965C5E1CE33B} = {9CAD1A50-BC1F-426F-BC24-0CD5E4A7F28E}
+	EndGlobalSection
+EndGlobal

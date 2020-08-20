@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DiscordAutoChannel</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CustomEnvironmentConfig" Version="1.3.0" />
+      <PackageReference Include="Discord.Net" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="env">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
